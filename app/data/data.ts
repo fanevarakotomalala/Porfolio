@@ -41,3 +41,25 @@ export const AllProjects = [
         details:"",
     }
 ]
+
+export const Formations = [
+    {
+        title:"Diplôme de Master en Informatique et Télécommunication",
+        year:2025
+    },
+    {
+        title:"Diplôme de Master en Informatique et Télécommunication",
+        year: 2023
+    }
+]
+
+export const Experiences = [
+    {
+        title:"Stage de 6 mois à l'Institut supérieur Polytechnique de Madagascar pour l'obtention du diplmôme d'ingénieur, Conception et Réalisation d'un module de gestion de données linguistique et contributions à l'informatisation de l'ISPM",
+        year: 2024
+    },
+    {
+        title: "Stage de 3 mois chez Tesseract Intelligence Creator pour l'obtention du diplmôme de Licence, Conception et Réalisation d'un module de gestion de l'emplois du temps pour l'ISPM",
+        year:2022,
+    }
+]

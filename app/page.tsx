@@ -59,7 +59,7 @@ export default function Home() {
                   src={project.image || "/placeholder.svg"}
                   alt={project.title}
                   fill
-                  className="object-cover transition-transform duration-500 group-hover:scale-105"
+                  className="object-cover transition-transform duration-500 group-hover:scale-105 border rounded-lg"
                 />
               </div>
               <div className="space-y-1">

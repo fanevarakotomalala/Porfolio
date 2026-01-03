@@ -38,7 +38,7 @@ export function Navbar() {
                   className={cn(
                     navigationMenuTriggerStyle(),
                     "bg-transparent hover:bg-transparent focus:bg-transparent text-sm font-medium transition-colors hover:text-foreground",
-                    pathname === item.path ? "text-foreground" : "text-muted-foreground",
+                    pathname === item.path ? "text-foreground " : "text-muted-foreground",
                   )}
                 >
                   {item.name}

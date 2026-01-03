@@ -1,5 +1,10 @@
 import Image from "next/image"
-import { AllProjects } from "../data/AllProjects"
+import { AllProjects } from "../data/data"
+import { Metadata } from "next"
+
+export const metadata:Metadata = {
+  title:"Projets",
+}
 
 export default function ProjectsPage (){
     return (
@@ -15,7 +20,7 @@ export default function ProjectsPage (){
         {AllProjects.map((project) => (
           <div key={project.title} className="group flex flex-col md:flex-row gap-8 items-start">
             <div className="w-full md:w-2/3 aspect-video relative overflow-hidden bg-muted">
-              <Image src={project.image || "/placeholder.svg"} alt={project.title} fill className="object-cover" />
+              <Image src={project.image || "/placeholder.svg"} alt={project.title} fill className="object-cover transition-transform duration-500 group-hover:scale-105 border rounded-lg" />
             </div>
             <div className="w-full md:w-1/3 space-y-4 pt-4 md:pt-0">
               <div className="flex justify-between items-baseline border-b pb-2">
