@@ -2,13 +2,13 @@ import Image from "next/image"
 import { AllProjects } from "../data/data"
 import { Metadata } from "next"
 
-export const metadata:Metadata = {
-  title:"Projets",
+export const metadata: Metadata = {
+  title: "Projets",
 }
 
-export default function ProjectsPage (){
-    return (
-        <div className="space-y-16">
+export default function ProjectsPage() {
+  return (
+    <div className="space-y-16">
       <header className="max-w-2xl space-y-4">
         <h1 className="text-4xl font-medium italic font-serif">Travaux</h1>
         <p className="text-lg text-muted-foreground">
@@ -36,5 +36,5 @@ export default function ProjectsPage (){
         ))}
       </div>
     </div>
-    )
+  )
 }

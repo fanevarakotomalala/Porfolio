@@ -41,7 +41,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <div className="max-w-5xl mx-auto px-6">
+          <div className="max-w-5xl mx-auto md:justify-center md:items-center px-6">
             <Navbar />
             {children}
             <div className="mb-14">
